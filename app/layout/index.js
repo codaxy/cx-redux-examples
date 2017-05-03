@@ -26,44 +26,15 @@ export default <cx>
          <ContentPlaceholder name="header"/>
       </header>
       <aside class="aside">
-         <h1>Cx App</h1>
+         <h1>Cx - Redux</h1>
+
          <dl>
             <dt>
-               App
+               Examples
             </dt>
             <dd>
-               <Link href="~/" url:bind="url">
-                  Home
-               </Link>
-            </dd>
-            <dd>
-               <Link href="~/dashboard" url:bind="url">
-                  Dashboard
-               </Link>
-            </dd>
-            <dd>
-               <Link href="~/about" url:bind="url">
-                  About
-               </Link>
-            </dd>
-         </dl>
-         <dl>
-            <dt>
-               Admin
-            </dt>
-            <dd>
-               <Link href="~/users" url:bind="url" match="prefix">
-                  Users
-               </Link>
-            </dd>
-         </dl>
-         <dl>
-            <dt>
-               User
-            </dt>
-            <dd>
-               <Link href="~/todo" url:bind="url">
-                  TODO
+               <Link href="~/todos" url:bind="url">
+                  TODOs
                </Link>
             </dd>
          </dl>

@@ -7,7 +7,7 @@ import Default from './default';
 import About from './about';
 import Dashboard from './dashboard';
 import UserRoutes from './users';
-import Todo from './todo';
+import Todos from './todos';
 
 
 export default <cx>
@@ -26,8 +26,8 @@ export default <cx>
         <Route route="~/dashboard" url:bind="url">
             <Dashboard/>
         </Route>
-        <Route route="~/todo" url:bind="url">
-            <Todo/>
+        <Route route="~/todos" url:bind="url">
+            <Todos/>
         </Route>
         <UserRoutes/>
         <Section title="Page Not Found" mod="card">
