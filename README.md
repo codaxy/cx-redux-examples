@@ -1,6 +1,6 @@
 # CxJS Redux Examples
 
-This project provides examples on how to use Redux in [CxJS](https://cxjs.io) applications.
+This project provides examples on how to use [Redux](http://redux.js.org/) in [CxJS](https://cxjs.io) applications.
 
 ### Get started
 
